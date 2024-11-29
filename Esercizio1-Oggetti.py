@@ -86,7 +86,11 @@ class Azione:
 class Libro:
 
     def __init__(self, nome = '', autore = '', anno = '', quantità = ''):
-
+        self.nome = nome
+        self.autore = autore
+        self.anno = anno
+        self.quantià = quantità
+        
         if self.nome == '':
 
             self.nome = input("Inserisci il nome del libro: ")
