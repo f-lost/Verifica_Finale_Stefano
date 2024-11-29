@@ -1,5 +1,5 @@
 
-
+#questa classe menù l'avevo già fatta, l'ho leggermente modificata per l'uso
 
 class Menu:
 
@@ -82,7 +82,7 @@ class Azione:
         else:
             raise ValueError("L'azione deve essere una funzione chiamabile")
 
-
+#classe libro con attributi nome, autore, anno, quantità che vengono richiesti al momento dell'inizializzazione dell'oggetto
 class Libro:
 
     def __init__(self, nome = '', autore = '', anno = '', quantità = ''):
@@ -103,6 +103,7 @@ class Libro:
 
             self.quantià = int(input("Quante copie vuoi inserire in biblioteca?: "))
 
+#classe biblioteca con 
 class Biblioteca:
 
     def __init__(self):
