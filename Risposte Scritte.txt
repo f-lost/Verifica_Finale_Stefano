@@ -1,0 +1,29 @@
+3. Quale il meccanismo delle classi e degli oggetti del OOP? come funziona? che pezzi DEVE avere la classe?
+
+Classi e oggetti sono i protagonisti di qualsiasi OOP. Una classe è cio che andrà a creare gli oggetti, la definiamo una volta sola e andiamo a definire tutti gli attributi(proprietà) e i metodi che avranno gli oggetti a esso collegati. Una classe DEVE obbligatoriamente quindi avere solo un nome per poter già andare a creare un oggetto. Più specificatamente una classe avrà sempre un metodo __init__ (metodo costruttore) che andrà ad inizializzare gli oggetti, che però puo anche essere non definito e lasciato implicito.
+
+6. Cos'è e quali sono le le fasi del ML?
+
+Il Machine Learning è una branca della programmazione che si occupa di "apprendimento intelligente". Si prova quindi a far imparare un pattern di riconoscimento al computer tramite i dati.
+Le sue fasi principali sono: 
+    - Preprocessing dei dati
+    - Split dei dati in dati di training e dati di test
+    - Scelta del modello
+    - Allenamento del modello (.fit())
+    - Predizione dei risultati (.predict())
+    - Valutazione dei risultati (.score())
+
+A cui si aggiunge un'eventuale ottimizzazione del modello in base allo score raggiunto.
+
+9. Cos'è una JOIN? di che tipo ne esistono?
+
+JOIN è uno degli elementi principali di una query SQL. Serve per unire uno o più dataset linkandoli in base a una colonna di valori in comuni (solitamente chiavi principali ed esterne). Ce ne sono di più tipi:
+
+    - L'INNER JOIN è quello principale, unisce due dataset basandosi sui valori comuni
+    - Il LEFT JOIN restituisce un dataset costituito da tutte le righe del dataset di sinistra e dalle righe del dataset di destra che hanno valori in comune con la colonna di link
+    - Il RIGHT JOIN restituisce un dataset costituito da tutte le righe del dataset di destra e dalle righe del dataset di sinistra che hanno valori in comune con la colonna di link
+    - L'OUTER JOIN restituisce un dataset costituito da tutte le righe dei due dataset, andando ad unirli dove trova una corrispondenza nella colonna di link.
+
+13. Quali sono le principali differenze tra ML e DL?
+
+Nel machine learning noi insegniamo alla macchina a cercare e riconoscere uno specifico pattern, mentre nel deep learning la macchina lo trova da sola. Inoltre il deep learning ha bisogno di molti più dati rispetto al machine learning per essere allenata ed evitare l'overfitting.
