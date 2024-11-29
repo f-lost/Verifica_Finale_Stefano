@@ -139,7 +139,7 @@ class Biblioteca:
 
     def stampa(self):
 
-        for libro in self.biblioteca:
+        for titolo, libro in self.biblioteca.items():
 
             print(f'titolo: {libro.nome}\t autore: {libro.autore}\t anno: {libro.anno}\t copie presenti: {libro.quantità}')
 
