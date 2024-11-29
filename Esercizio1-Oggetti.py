@@ -103,7 +103,7 @@ class Libro:
 
             self.anno = int(input("Inserisci l'anno di pubblicazione: "))
         
-        if self.anno == '':
+        if self.quantità == '':
 
             self.quantità = int(input("Quante copie vuoi inserire in biblioteca?: "))
 
