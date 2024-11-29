@@ -145,7 +145,7 @@ class Biblioteca:
 
     def cerca(self, titolo):
 
-        for libro in self.biblioteca:
+        for titolo, libro in self.biblioteca.items():
 
             if libro.nome == titolo:
 
