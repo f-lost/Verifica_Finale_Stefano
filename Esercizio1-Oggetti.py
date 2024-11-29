@@ -122,7 +122,7 @@ class Biblioteca:
 
                 choice = input("Libro già presente, vuoi aggiungerne altre copie? (y/n): ").lower()
 
-                if choice == 'y' or 'yes':
+                if choice == 'y' or choice =='yes':
 
                     numero = int(input("Quante copie vuoi aggiungerne?: "))
 
@@ -164,19 +164,19 @@ class Biblioteca:
 
                 scelta_autore = input("Vuoi modificare l'autore? (y/n): ").lower()
 
-                if scelta_autore == "y" or "yes":
+                if scelta_autore == "y" or scelta_autore == "yes":
 
                     libro.autore = input("Inserisci un autore:")
                 
                 scelta_anno = input("Vuoi modificare l'anno? (y/n): ").lower()
 
-                if scelta_anno == "y" or "yes":
+                if scelta_anno == "y" or scelta_anno == "yes":
 
                     libro.anno = int(input("Inserisci un anno:"))
                 
                 scelta_quantità = input("Vuoi modificare la quantità? (y/n): ").lower()
 
-                if scelta_quantità == "y" or "yes":
+                if scelta_quantità == "y" or scelta_quantità == "yes":
 
                     libro.quantità = int(input("Inserisci una quantità:"))
 
