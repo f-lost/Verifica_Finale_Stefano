@@ -89,8 +89,8 @@ class Libro:
         self.nome = nome
         self.autore = autore
         self.anno = anno
-        self.quantià = quantità
-        
+        self.quantità = quantità
+
         if self.nome == '':
 
             self.nome = input("Inserisci il nome del libro: ")
@@ -105,7 +105,7 @@ class Libro:
         
         if self.anno == '':
 
-            self.quantià = int(input("Quante copie vuoi inserire in biblioteca?: "))
+            self.quantità = int(input("Quante copie vuoi inserire in biblioteca?: "))
 
 #classe biblioteca con 
 class Biblioteca:
